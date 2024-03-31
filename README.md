@@ -5,20 +5,27 @@
 A development toolkit that leverages Gulp.js to streamline Bootstrap-based web development. It offers automation,
 customization, and productivity enhancements to help you build web applications faster and more efficiently.
 
-## Usage
+## Installation
 
-**Start development**
+Before getting started, ensure you have Node.js and npm installed. Then, install the project dependencies by executing the following command:
 
-Development mode: execute the build task and start the local server, automatically refresh the page when the file is
-modified.
+```shell
+npm install
+```
+
+This command installs all dependencies listed in the package.json file, including Gulp.js, Art-Template, Bootstrap, and Bootstrap-Icons.
+
+## Getting Started
+
+To begin development, execute the following command to start the local server. This command also installs dependencies and automatically refreshes the page when files are modified, facilitating a smooth development experience.
 
 ```shell
 npm start
 ```
 
-**Run the build**
+## Build Process
 
-Build mode: only the build task is executed, but the compression option is enabled during the build process.
+To run the build process, including task execution with compression enabled, use the following command:
 
 ```shell
 npm run build
@@ -26,22 +33,24 @@ npm run build
 
 ## Acknowledgments
 
-Thanks to the open-source community and the following outstanding projects for their support of this project:
+Gratitude to the open-source community and the following projects for invaluable contributions:
 
 - **[Gulp](https://gulpjs.com/)**
 
-  A toolkit to automate & enhance your workflow.
+  A toolkit that automates and enhances workflows.
 
 - **[Art-Template](https://aui.github.io/art-template/)**
 
-  High performance JavaScript templating engine.
+  A high-performance JavaScript templating engine.
 
 - **[Bootstrap](https://getbootstrap.com/)**
 
-  Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system
-  and components, and bring projects to life with powerful JavaScript plugins.
+  A powerful, extensible frontend toolkit offering a customizable grid system, prebuilt components, and JavaScript plugins.
 
 - **[Bootstrap-Icons](https://icons.getbootstrap.com/)**
 
-  Free, high quality, open source icon library with over 2,000 icons. Include them anyway you like—SVGs, SVG sprite, or
-  web fonts. Use them with or without [Bootstrap](https://getbootstrap.com/) in any project.
+  A free, high-quality icon library with over 2,000 icons, compatible with various integration methods.
+
+## License
+
+This repository is licensed under the MIT License.
